@@ -18,6 +18,16 @@ header {
     border-bottom: #77aaff 3px solid;
 }
 
+header img.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
 header a {
     color: #fff;
     text-decoration: none;
@@ -35,33 +45,25 @@ header li {
     padding: 0 20px 0 20px;
 }
 
-header h1 {
-    float: left;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
 section {
     padding: 20px;
     margin: 20px 0;
 }
 
-section#about {
+section#about,
+section#contact {
     background: #f4f4f4;
-    padding: 20px;
 }
 
 section#services {
     background: #fff;
-    padding: 20px;
 }
 
-section#contact {
-    background: #f4f4f4;
-    padding: 20px;
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
 }
 
 footer {
