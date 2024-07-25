@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Extie Group</h1>
+            <img src="images/logo.png" alt="Extie Group Logo" class="logo">
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -24,6 +24,7 @@
         <div class="container">
             <h2>About Us</h2>
             <p>Welcome to Extie Group. We provide top-notch services for all your business needs.</p>
+            <img src="images/about.jpg" alt="About Us">
         </div>
     </section>
 
@@ -33,14 +34,17 @@
             <div class="service">
                 <h3>Consulting</h3>
                 <p>Expert consulting services to help you grow your business.</p>
+                <img src="images/consulting.jpg" alt="Consulting">
             </div>
             <div class="service">
                 <h3>Development</h3>
                 <p>Custom software development tailored to your needs.</p>
+                <img src="images/development.jpg" alt="Development">
             </div>
             <div class="service">
                 <h3>Support</h3>
                 <p>Reliable support services to keep your business running smoothly.</p>
+                <img src="images/support.jpg" alt="Support">
             </div>
         </div>
     </section>
@@ -48,7 +52,7 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <form>
+            <form id="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
@@ -57,6 +61,7 @@
                 <textarea id="message" name="message" required></textarea>
                 <button type="submit">Send</button>
             </form>
+            <p id="form-message"></p>
         </div>
     </section>
 
